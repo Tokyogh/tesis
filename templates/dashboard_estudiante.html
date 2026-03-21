@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Estudiante</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f2f5; }
+        .container { max-width: 600px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+        h2 { color: #6a0dad; }
+        a { color: #6a0dad; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido, {{ username }} (Estudiante)</h2>
+        <p>Este es tu dashboard. Aquí podrás ver tus cursos y tareas.</p>
+        <a href="/logout">Cerrar sesión</a>
+    </div>
+</body>
+</html>
